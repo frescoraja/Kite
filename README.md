@@ -87,7 +87,7 @@ FundingRound
 
 When using an ORM what techniques could you use to ensure the fastest possible lookup time of the above models and the relationships between those models?
 
-Eager loading models using include method in controller instead of iterating over in view.
+Create a ```:has_many funding_rounds``` association in Company model, with a ```:belongs_to``` association in the FundingRound Model.  Eager loading models using include method in controller instead of iterating over in view.
 
 **Question 6:**
 
