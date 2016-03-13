@@ -136,8 +136,15 @@ Design a RESTful JSON CRUD API for the 2 models above. Include expected input, w
 //    - Update Model, 500 on fail
 //    - Render model, 201 on success
 //   Input Example: { id: 9 }
-//   Outpute Example:
+//   Output Example:
+
+
+
 **Question 7:**
+
+
+
+Please See companies.html, with accompanying stylesheets in CSS folder.
 
 Using HTML & CSS, take the following mock and implement a list of company models. The JSON output you have on the front-end should be the JSON output for the `/companies` API route you created in question 2. You are not expected to be tying data in javascript objects to HTML elements in this question. You are only expected to create an HTML file that implements the mocks.
 
