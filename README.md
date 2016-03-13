@@ -101,7 +101,7 @@ Design a RESTful JSON CRUD API for the 2 models above. Include expected input, w
 //   Input Example: {id: 123}
 //   Output Example: {funding_round: { id: 123, funding_in_usd: 123.25, company_id: 321 }}
 ```
-
+```
 // GET /companies
 //   Controller Process:
 //    - Lookup Models, 404 on fail
@@ -137,6 +137,7 @@ Design a RESTful JSON CRUD API for the 2 models above. Include expected input, w
 //    - Render model, 201 on success
 //   Input Example: { id: 9 }
 //   Output Example:
+```
 
 
 
