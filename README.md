@@ -127,16 +127,25 @@ Design a RESTful JSON CRUD API for the 2 models above. Include expected input, w
 //   Controller Process:
 //    - Save Model
 //      - 422 Unprocessable Entity on fail, redirect to companies/new
-//      - Render Model, 201 success
+//      - 303 redirect with address to new resource
 //   Input Example: { name: "New Company", description: "LLama supplements research", logo_url: "http://..." }
-//   Output Example: { company: { id: 32, name: "New Company", ...} }
+//   Output Example: { company: { id: 32, name: "New Company", ...} } (after redirect)
 
 // PUT /companies/:id
 //   Controller Process:
 //    - Update Model, 500 on fail
-//    - Render model, 201 on success
+//    - 303 redirect with address to new resource
+//   Input Example: { id: 9, name: "Fixed Company" }
+//   Output Example: { company: {id: 9, name: "Fixed Company" } } (after redirect)
+
+// DELETE /companies/:id
+//   Controller Process:
+//    - Delete Model, 404 on fail
+//    - 200 on success
 //   Input Example: { id: 9 }
-//   Output Example:
+//   Output Example: 
+
+
 ```
 
 
