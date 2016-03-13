@@ -1,46 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
 body {
   font-family: Open Sans, sans-serif;
   color: #727272;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f9f9f9;
 }
 
 header {
   text-align: center;
-  margin: 23px;
+  margin: 21px;
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 300;
 }
 
 main {
   background-color: #f1f1f1;
-  height: 560px;
-  padding-top: 16px
-}
-
-ul {
+  padding: 15px 0 75px 0;
 }
 
 li {
   display: flex;
   background-color: white;
-  margin-bottom: 16px;
-  padding: 12px 0;
+  height: 104px;
+  margin-bottom: 15px;
 }
 
 .logo-container {
   height: 100%;
-  margin: 0 16px;
+  margin: 15px 15px 0 15px;
 }
 
 .logo {
-  max-width: 86px;
+  max-width: 77px;
 }
 
 .rounds {
@@ -52,22 +45,26 @@ li {
 
 .rounds a {
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
-  background-color: #f5b62a;
-  padding: 6px 14px;
-  border-radius: 6px;
+  background-color: #f0aa11;
+  padding: 8px 15px;
+  border-radius: 4px;
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 15px;
+  right: 15px;
 }
 
 .company-title {
-  padding: 12px 0;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 19px;
+  margin-bottom: 3px;
+  letter-spacing: .2px;
 }
 
 .description {
-  font-size: 18px;
+  padding-top: 10px;
+  font-weight: light;
+  line-height: 1.5;
+  letter-spacing: -.3px;
 }
